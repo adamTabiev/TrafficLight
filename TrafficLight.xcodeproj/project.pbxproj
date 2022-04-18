@@ -11,6 +11,8 @@
 		F1A0B209280DA42E0015A187 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A0B208280DA42E0015A187 /* ContentView.swift */; };
 		F1A0B20B280DA4300015A187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A0B20A280DA4300015A187 /* Assets.xcassets */; };
 		F1A0B20E280DA4300015A187 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A0B20D280DA4300015A187 /* Preview Assets.xcassets */; };
+		F1A0B215280DA4F00015A187 /* ColorLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A0B214280DA4F00015A187 /* ColorLight.swift */; };
+		F1A0B217280DA8F00015A187 /* ChangeColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A0B216280DA8F00015A187 /* ChangeColorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F1A0B208280DA42E0015A187 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1A0B20A280DA4300015A187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1A0B20D280DA4300015A187 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1A0B214280DA4F00015A187 /* ColorLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLight.swift; sourceTree = "<group>"; };
+		F1A0B216280DA8F00015A187 /* ChangeColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				F1A0B206280DA42E0015A187 /* TrafficLightApp.swift */,
 				F1A0B208280DA42E0015A187 /* ContentView.swift */,
+				F1A0B214280DA4F00015A187 /* ColorLight.swift */,
+				F1A0B216280DA8F00015A187 /* ChangeColorButton.swift */,
 				F1A0B20A280DA4300015A187 /* Assets.xcassets */,
 				F1A0B20C280DA4300015A187 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A0B215280DA4F00015A187 /* ColorLight.swift in Sources */,
 				F1A0B209280DA42E0015A187 /* ContentView.swift in Sources */,
 				F1A0B207280DA42E0015A187 /* TrafficLightApp.swift in Sources */,
+				F1A0B217280DA8F00015A187 /* ChangeColorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +292,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +321,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
